@@ -1,0 +1,20 @@
+head {
+    padding: 30;
+    margin: 30;
+    box-sizing: border-box;
+    font-family: 'Constantia', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffdfbf;
+}
+
+.container {
+    margin: 150px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 46px;
+    margin-bottom: 70px;
+}
