@@ -1,0 +1,53 @@
+ #body {}
+ 
+ ul {
+     list-style-type: none;
+     display: inline;
+     display: flex;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: black;
+ }
+ 
+ li {
+     margin-left: 25px;
+     margin: 10px 20px;
+ }
+ 
+ .first_div {
+     display: flex;
+     align-items: center;
+ }
+ 
+ img {
+     width: 200px;
+ }
+ 
+ .prod_div {
+     border: 2px solid black;
+     padding: 20px;
+     margin: 10px;
+ }
+ 
+ .img_div {
+     display: flex;
+     padding: 35px;
+ }
+ 
+ .RRP {
+     color: black;
+     opacity: 0.6;
+ }
+ 
+ .Saving {
+     color: green;
+     opacity: 0.8;
+ }
+ 
+ .price {
+     text-decoration: underline;
+ }
+ 
+ max
