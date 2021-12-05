@@ -53,18 +53,21 @@
  }
  
  ul li+li:before {
+     /* Add a slash symbol (/) before/behind each list item */
      padding: 8px;
      color: black;
      content: "/\00a0";
  }
  
  ul li a {
-     color: #0275d8;
+     /* Add a color to all links inside the list */
+     color: #006eff;
      text-decoration: none;
  }
  
  ul li a:hover {
-     color: #01447e;
+     /* Add a color on mouse-over */
+     color: #000000;
      text-decoration: underline;
  }
  
