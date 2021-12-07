@@ -1,81 +1,114 @@
- #body {}
- 
- ul {
-     list-style-type: none;
-     display: inline;
-     display: flex;
- }
- 
- a {
-     text-decoration: none;
-     color: black;
- }
- 
- li {
-     margin-left: 15px;
-     margin: 10px 10px;
- }
- 
- .first_div {
-     display: flex;
-     align-items: center;
- }
- 
- .sec_div {
-     display: flex;
-     align-items: center;
- }
- 
- .nav-links2 {
-     display: flex;
-     margin-left: -48px
- }
- 
- img {
-     width: 200px;
- }
- 
- .prod_div {
-     border: 3px solid black;
-     padding: 20px;
-     margin: 10px;
- }
- 
- .img_div {
-     display: flex;
-     padding: 35px;
-     justify-content: space-between;
- }
- 
- .RRP {
-     color: black;
-     opacity: 0.6;
- }
- 
- .Saving {
-     color: green;
-     opacity: 0.8;
- }
- 
- .price {
-     text-decoration: underline;
- }
- 
- .nav-links2 li+li:before {
-     /* Add a slash symbol (/) before/behind each list item */
-     padding: 8px;
-     color: black;
-     content: "/\00a0";
- }
- 
- ul li a {
-     /* Add a color to all links inside the list */
-     color: #000000;
-     text-decoration: none;
- }
- 
- ul li a:hover {
-     /* Add a color on mouse-over */
-     color: #ff0000;
-     text-decoration: underline;
- }
+        ul {
+            list-style-type: none;
+            display: inline;
+            display: flex;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        li {
+            margin-left: 15px;
+            margin: 10px 10px;
+        }
+        
+        .first_div {
+            display: flex;
+            align-items: center;
+        }
+        
+        .sec_div {
+            display: flex;
+            align-items: center;
+            display: inline;
+        }
+        
+        .nav-links2 {
+            display: flex;
+            margin-left: 00px;
+            padding: initial;
+        }
+        
+        img {
+            width: 100%;
+        }
+        
+        .logo {
+            width: 200px;
+        }
+        
+        .prod_div {
+            border: 3px solid black;
+            padding: 20px;
+            margin: 00px;
+        }
+        
+        .img_div {
+            display: flex;
+            padding: 35px;
+            justify-content: space-between;
+        }
+        
+        .RRP {
+            color: black;
+            opacity: 0.6;
+        }
+        
+        .Saving {
+            color: green;
+            opacity: 0.8;
+        }
+        
+        .price {
+            text-decoration: underline;
+        }
+        
+        .foot {
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            background-color: bisque;
+            display: flex;
+        }
+        
+        .nav-links2 li+li:before {
+            /* Add a slash symbol (/) before/behind each list item */
+            padding: 2px;
+            color: rgb(230, 31, 31);
+            content: "/\00a0";
+        }
+        
+        ul li a {
+            /* Add a color to all links inside the list */
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        ul li a:hover {
+            /* Add a color on mouse-over */
+            color: #ff0000;
+            text-decoration: underline;
+        }
+        
+        @media( max-width: 600px) {
+            /*  */
+            .img_div {
+                flex-direction: column;
+                justify-content: center;
+            }
+            .logo {
+                justify-content: center;
+                padding: 00px;
+            }
+            .first_div {
+                flex-direction: column;
+                text-align: center;
+            }
+            .sec_div {
+                flex-direction: column;
+                text-align: justify;
+                justify-content: space-between;
+            }
+        }
