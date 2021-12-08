@@ -42,12 +42,12 @@
         .prod_div {
             border: 3px solid black;
             padding: 20px;
-            margin: 00px;
+            margin: 06px;
         }
         
         .img_div {
             display: flex;
-            padding: 35px;
+            padding: 05px;
             justify-content: space-between;
         }
         
@@ -57,8 +57,8 @@
         }
         
         .Saving {
-            color: green;
-            opacity: 0.8;
+            foreground color: #339933;
+            background color: #ffffff;
         }
         
         .price {
@@ -71,6 +71,7 @@
             justify-content: space-between;
             background-color: bisque;
             display: flex;
+            padding: 3px;
         }
         
         .nav-links2 li+li:before {
@@ -92,7 +93,7 @@
             text-decoration: underline;
         }
         
-        @media( max-width: 600px) {
+        @media( max-width: 700px) {
             /*  */
             .img_div {
                 flex-direction: column;

@@ -77,11 +77,12 @@ img {
 }
 
 .rpp_card {
-    color: rgba(51, 51, 51, 0.486);
+    background-color: #ffffff;
 }
 
 .save_card {
-    color: rgb(40, 179, 40);
+    foreground color: #28b328;
+    background-color: #ffffff;
 }
 
 .products_container {
@@ -100,7 +101,7 @@ img {
         margin-top: 40px;
     }
     .logo {
-        width: 350px;
+        width: 450px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -152,5 +153,11 @@ img {
     .card {
         flex: 2;
         height: 450px;
+    }
+    .text_product {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 05px;
+        margin: auto;
     }
 }
