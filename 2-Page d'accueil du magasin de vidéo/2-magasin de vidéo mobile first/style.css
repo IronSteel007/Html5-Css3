@@ -160,4 +160,7 @@ img {
         padding: 05px;
         margin: auto;
     }
+    p {
+        text-align: left;
+    }
 }
